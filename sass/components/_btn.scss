@@ -1,0 +1,11 @@
+.button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: color var(--transition-duration-timing-function),
+    background-color var(--transition-duration-timing-function);
+  &:hover,
+  &:focus {
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+  }
+}
