@@ -87,7 +87,7 @@ body {
 }
 
 .container {
-  min-width: 100%;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -673,8 +673,11 @@ svg {
 
 .team-list__picture {
   display: block;
-  width: 100%;
   height: auto;
+}
+
+img {
+  width: 100%;
 }
 
 .team-list {
@@ -694,6 +697,13 @@ svg {
     flex-wrap: wrap;
     margin-left: -15px;
     margin-top: -15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-list {
+    margin-left: -30px;
+    margin-top: -30px;
   }
 }
 
