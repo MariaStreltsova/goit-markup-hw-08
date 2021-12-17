@@ -105,13 +105,13 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 738px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1170px) {
   .container {
-    width: 1200px;
+    width: 1170px;
   }
 }
 
@@ -638,11 +638,12 @@ svg {
 
 .team__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-bottom: 30px;
 }
 
 .team-item__text {
@@ -665,24 +666,59 @@ svg {
 
 .team-list__picture {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
+@media screen and (min-width: 480px) {
+  .team-list__picture {
+    width: 450px;
+  }
+}
+
 .team-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+@media screen and (min-width: 480px) {
+  .team-list {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-top: -15px;
+  }
 }
 
 .team-list__item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .team-list__item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-list__item {
+    flex-basis: calc(100% / 2 - 15px);
+    margin-left: 15px;
+    margin-top: 15px;
+  }
 }
 
 .team-item {
+  display: block;
   padding-top: 30px;
   padding-bottom: 30px;
   background: var(--white-color);
