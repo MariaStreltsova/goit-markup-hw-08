@@ -556,6 +556,8 @@ svg {
     flex-wrap: wrap;
     margin-left: -15px;
     margin-top: -15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -563,19 +565,13 @@ svg {
   .benefits-list {
     margin-left: -30px;
     margin-top: -30px;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 .benefits-list__item {
   margin-bottom: 30px;
-}
-
-@media screen and (min-width: 480px) {
-  .benefits-list__item {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -591,7 +587,6 @@ svg {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
-    padding: 0;
   }
 }
 
@@ -740,19 +735,14 @@ img {
   margin-bottom: -30px;
 }
 
-@media screen and (min-width: 480px) {
-  .team-list {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .team-list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
     margin-top: -15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -772,13 +762,6 @@ img {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
-  .team-list__item {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .team-list__item {
     flex-basis: calc(100% / 2 - 15px);
@@ -793,8 +776,6 @@ img {
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
