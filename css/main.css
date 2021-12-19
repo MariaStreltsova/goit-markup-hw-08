@@ -492,6 +492,12 @@ svg {
   margin-left: auto;
   background-color: transparent;
   border: none;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.close-menu-button:hover, .close-menu-button:focus {
+  color: var(--accent-text-color);
 }
 
 .mob-menu-list__item:not(:last-child) {

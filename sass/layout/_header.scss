@@ -45,7 +45,14 @@
   margin-left: auto;
   background-color: transparent;
   border: none;
+  border-radius: 50%;
+  align-items: center;
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
 }
+
 .mob-menu-list__item {
   &:not(:last-child) {
     margin-bottom: 32px;
