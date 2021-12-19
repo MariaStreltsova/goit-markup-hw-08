@@ -17,98 +17,98 @@
 //   align-items: center;
 //   margin-left: auto;
 // }
-.mob-menu {
-  position: fixed;
-  background-color: #ffffff;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 5;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-}
-.open-menu-button {
-  background-color: transparent;
-  border: none;
-}
-.open-menu-button__icon {
-  margin-left: auto;
-}
-.close-menu-button {
-  display: block;
-  margin-left: auto;
-  background-color: transparent;
-  border: none;
-  border-radius: 50%;
-  align-items: center;
-  &:hover,
-  &:focus {
-    color: var(--accent-text-color);
-  }
-}
+// .mob-menu {
+//   position: fixed;
+//   background-color: #ffffff;
+//   top: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   z-index: 5;
+//   padding-top: 48px;
+//   padding-bottom: 48px;
+//   .container {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     height: 100%;
+//   }
+// }
+// .open-menu-button {
+//   background-color: transparent;
+//   border: none;
+// }
+// .open-menu-button__icon {
+//   margin-left: auto;
+// }
+// .close-menu-button {
+//   display: block;
+//   margin-left: auto;
+//   background-color: transparent;
+//   border: none;
+//   border-radius: 50%;
+//   align-items: center;
+//   &:hover,
+//   &:focus {
+//     color: var(--accent-text-color);
+//   }
+// }
 
-.mob-menu-list__item {
-  &:not(:last-child) {
-    margin-bottom: 32px;
-  }
-}
+// .mob-menu-list__item {
+//   &:not(:last-child) {
+//     margin-bottom: 32px;
+//   }
+// }
 
-.mob-menu-list__link {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
-.mob-menu-list__link--current {
-  color: var(--accent-text-color);
-  position: relative;
-}
-.mob-menu-contacts-list__link {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: calc(28px / 24px);
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
+// .mob-menu-list__link {
+//   font-weight: 500;
+//   font-size: 40px;
+//   line-height: 1.17;
+//   letter-spacing: 0.02em;
+//   color: var(--secondary-text-color);
+// }
+// .mob-menu-list__link--current {
+//   color: var(--accent-text-color);
+//   position: relative;
+// }
+// .mob-menu-contacts-list__link {
+//   font-weight: 500;
+//   font-size: 24px;
+//   line-height: calc(28px / 24px);
+//   letter-spacing: 0.02em;
+//   color: var(--primary-text-color);
+// }
 
-.mob-menu-contacts-list__link--accented {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--accent-text-color);
-}
-.mob-menu-contacts-list__item {
-  margin-bottom: 32px;
-}
-.mob-menu-contacts-list {
-  margin-bottom: 64px;
-}
-.mob-menu-social-list {
-  display: flex;
-  flex-direction: row;
-}
-.mob-menu-social-list__item:not(:last-child) {
-  &::after {
-    content: "";
-    width: 22px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 90deg;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-.mob-menu-social-list__link {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: calc(22px / 18px);
-  letter-spacing: 0.02em;
-  color: var(--accent-text-color);
-}
+// .mob-menu-contacts-list__link--accented {
+//   font-weight: 500;
+//   font-size: 34px;
+//   line-height: 1.17;
+//   letter-spacing: 0.02em;
+//   color: var(--accent-text-color);
+// }
+// .mob-menu-contacts-list__item {
+//   margin-bottom: 32px;
+// }
+// .mob-menu-contacts-list {
+//   margin-bottom: 64px;
+// }
+// .mob-menu-social-list {
+//   display: flex;
+//   flex-direction: row;
+// }
+// .mob-menu-social-list__item:not(:last-child) {
+//   &::after {
+//     content: "";
+//     width: 22px;
+//     border: 1px solid rgba(33, 33, 33, 0.2);
+//     border-radius: 90deg;
+//     margin-left: 10px;
+//     margin-right: 10px;
+//   }
+// }
+// .mob-menu-social-list__link {
+//   font-weight: 500;
+//   font-size: 18px;
+//   line-height: calc(22px / 18px);
+//   letter-spacing: 0.02em;
+//   color: var(--accent-text-color);
+// }
