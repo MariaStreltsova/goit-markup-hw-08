@@ -43,8 +43,9 @@
             <svg class="open-menu-button_icon" width="40" height="40"><use href="images/icons.svg#icon-menu"></use></svg>
         </button>
     </div>
-<div class="mob-menu">
+<div class="mob-menu is-hidden">
     <div class="container">
+        <div class="mob-menu__top">
     <button type="button" class="close-menu-button">
         <svg class="close-menu-button__icon" width="40" height="40">
             <use href="images/icons.svg#icon-close"></use>
@@ -57,25 +58,28 @@
         <li class="mob-menu-list__item"><a href="./portfolio.html" class="mob-menu-list__link link">Портфолио</a></li>
         <li class="mob-menu-list__item"><a href="" class="mob-menu-list__link link">Контакты</a></li>
     </ul>
+        </div>
+        <div class="mob-menu__bottom">
     <ul class="mob-menu-contacts-list list">
         <li class="mob-menu-contacts-list__item"><a href="tel:+380961111111" class="link mob-menu-contacts-list__link link mob-menu-contacts-list__link--accented">+38 096 111 11 11</a></li>
         <li class="mob-menu-contacts-list__item"><a href="mailto:info@devstudio.com" class="link mob-menu-contacts-list__link">info@devstudio.com</a></li>
         
     </ul>
     <ul class="mob-menu-social-list list">
-        <li class="social-list__item">
-            <a href="" class="social-list__link  link">instagram</a>
+        <li class="mob-menu-social-list__item">
+            <a href="" class="mob-menu-social-list__link  link">instagram</a>
         </li>
-        <li class="social-list__item">
-            <a href="" class="social-list__link  link">twitter</a>
+        <li class="mob-menu-social-list__item">
+            <a href="" class="mob-menu-social-list__link  link">twitter</a>
         </li>
-        <li class="social-list__item">
-            <a href="" class="social-list__link  link"> facebook</a>
+        <li class="mob-menu-social-list__item">
+            <a href="" class="mob-menu-social-list__link  link"> facebook</a>
         </li>
-        <li class="social-list__item">
-            <a href="" class="social-list__link link">linkedin</a>
+        <li class="mob-menu-social-list__item">
+            <a href="" class="mob-menu-social-list__link link">linkedin</a>
         </li>
     </ul>
+        </div>
 </div>
 </div>
     </header>
@@ -429,5 +433,6 @@
     </div>
 </div>
 <script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 </html>
