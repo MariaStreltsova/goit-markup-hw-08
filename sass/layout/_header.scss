@@ -2,19 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid var(--header-border-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-navigation {
   display: flex;
   align-items: center;
 }
 
-.header-navigation__contacts {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-.site-header {
-  border-bottom: 1px solid var(--header-border-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
+// .header-navigation__contacts {
+//   display: flex;
+//   align-items: center;
+//   margin-left: auto;
+// }

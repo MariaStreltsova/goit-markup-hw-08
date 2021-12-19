@@ -125,8 +125,9 @@ svg {
 }
 
 .backdrop {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  padding: 93px 15px;
   background-color: rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
@@ -134,9 +135,27 @@ svg {
   transition: opacity var(--transition-duration-timing-function), visibility var(--transition-duration-timing-function);
 }
 
+@media screen and (min-width: 480px) {
+  .backdrop {
+    padding: 93px 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .backdrop {
+    padding: 208px 159px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .backdrop {
+    padding: 0;
+  }
+}
+
 .modal {
-  width: 528px;
-  min-height: 581px;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
   border-radius: 4px;
   position: absolute;
@@ -152,6 +171,13 @@ svg {
 
 .backdrop.is-hidden .modal {
   transform: scale(3.5) rotate(90deg);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal-close {
@@ -354,15 +380,11 @@ svg {
   color: var(--white-color);
 }
 
-.logo {
-  margin-right: 93px;
-}
-
 .logo__link {
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
+  font-size: 24px;
+  line-height: calc(28px / 24px);
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -390,7 +412,7 @@ svg {
 }
 
 .contacts-list {
-  display: flex;
+  display: none;
   align-items: center;
   margin-left: auto;
 }
@@ -427,23 +449,15 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid var(--header-border-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-navigation {
   display: flex;
   align-items: center;
-}
-
-.header-navigation__contacts {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-.site-header {
-  border-bottom: 1px solid var(--header-border-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .navigation-list {
@@ -452,7 +466,7 @@ svg {
 }
 
 .navigation-list__item {
-  margin-right: 50px;
+  display: none;
 }
 
 .navigation-list__item:last-child {

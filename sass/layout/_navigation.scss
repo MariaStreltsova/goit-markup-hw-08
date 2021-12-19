@@ -3,7 +3,8 @@
   align-items: center;
 }
 .navigation-list__item {
-  margin-right: 50px;
+  display: none;
+  // margin-right: 50px;
   &:last-child {
     margin-right: 0;
   }

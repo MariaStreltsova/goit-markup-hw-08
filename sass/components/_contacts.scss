@@ -1,5 +1,6 @@
 .contacts-list {
-  display: flex;
+  display: none;
+  // display: flex;
   align-items: center;
   margin-left: auto;
 }
@@ -27,3 +28,7 @@
 .contacts-list__icon {
   margin-right: 10px;
 }
+
+// .menu-icon {
+//   justify-content: end;
+// }
