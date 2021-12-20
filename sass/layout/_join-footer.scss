@@ -1,5 +1,8 @@
 .join {
-  margin-right: 88px;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    margin-right: 88px;
+  }
 }
 .join__title {
   font-style: 700;
@@ -8,6 +11,10 @@
   letter-spacing: 0.03em;
   color: var(--white-color);
   margin-bottom: 20px;
-  display: flex;
+
   text-transform: uppercase;
+  margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }

@@ -32,3 +32,13 @@
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--white-color);
 }
+
+.social-list-footer {
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 102px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+}
