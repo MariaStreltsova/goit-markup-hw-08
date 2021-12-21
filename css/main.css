@@ -135,8 +135,8 @@ svg {
 }
 
 .modal {
-  width: 450px;
-  min-height: 609px;
+  width: 96%;
+  height: 96%;
   background-color: #fff;
   border-radius: 4px;
   position: absolute;
@@ -152,6 +152,13 @@ svg {
 
 .backdrop.is-hidden .modal {
   transform: scale(3.5) rotate(90deg);
+}
+
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
