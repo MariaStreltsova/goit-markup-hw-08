@@ -48,7 +48,7 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    width: 1600px;
+    width: auto;
     min-height: 600px;
     background-image: linear-gradient(
         to right,
@@ -72,6 +72,7 @@
     padding-bottom: 200px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
 }
 .hero__title {

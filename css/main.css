@@ -639,7 +639,7 @@ svg {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1600px;
+    width: auto;
     min-height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/desktop/hero-desktop-1x.png");
     margin-left: auto;
@@ -648,6 +648,7 @@ svg {
     padding-bottom: 200px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
 }
 
