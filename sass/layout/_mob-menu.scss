@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 5;
-  padding-top: 48px;
+  padding-top: 10px;
   padding-bottom: 48px;
   .container {
     display: flex;
@@ -39,6 +39,7 @@
   border: none;
   border-radius: 50%;
   align-items: center;
+
   &:hover,
   &:focus {
     color: var(--accent-text-color);
@@ -58,6 +59,11 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+  transition: color var(--transition-duration-timing-function);
 }
 .mob-menu-list__link--current {
   color: var(--accent-text-color);
@@ -104,4 +110,12 @@
   line-height: calc(22px / 18px);
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color);
+  }
+  transition: color var(--transition-duration-timing-function);
+}
+.mob-menu__top {
+  padding-top: 10px;
 }
