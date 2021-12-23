@@ -1337,6 +1337,11 @@ img {
   line-height: calc(28px / 24px);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  transition: color var(--transition-duration-timing-function);
+}
+
+.mob-menu-contacts-list__link:hover, .mob-menu-contacts-list__link:focus {
+  color: var(--accent-text-color);
 }
 
 .mob-menu-contacts-list__link--accented {
