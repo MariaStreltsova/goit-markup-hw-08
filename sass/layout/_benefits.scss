@@ -1,9 +1,9 @@
 .benefits-list {
   margin-bottom: -30px;
-  @media screen and (min-width: 480px) {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  // @media screen and (min-width: 480px) {
+  //   padding-left: 15px;
+  //   padding-right: 15px;
+  // }
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -15,8 +15,8 @@
   @media screen and (min-width: 1200px) {
     margin-left: -30px;
     margin-top: -30px;
-    padding-left: 0;
-    padding-right: 0;
+    // padding-left: 0;
+    // padding-right: 0;
   }
 }
 .benefits-list__item {
