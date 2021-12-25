@@ -35,8 +35,11 @@
     position: absolute;
     border-radius: 2px;
     left: 0;
-    bottom: -32px;
+    bottom: -35px;
     transition: color var(--transition-duration-timing-function);
+    @media screen and (min-width: 1200px) {
+      bottom: -34px;
+    }
     &:hover,
     &:focus {
       color: var(--accent-text-color);
