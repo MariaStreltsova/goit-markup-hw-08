@@ -1433,7 +1433,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-left: 8px;
-  transition: box-shadow var(--transition-duration-timing-function), color var(--transition-duration-timing-function);
+  transition: box-shadow var(--transition-duration-timing-function), color var(--transition-duration-timing-function), background-color var(--transition-duration-timing-function);
   margin-bottom: 15px;
 }
 
